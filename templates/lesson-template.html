@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+  ★ 課程範本 ★
+  新增課程：複製本檔到 lessons/L{NN}-{topic}.html，再依 AGENTS.md 第 4 節填寫。
+  - 只修改有「TODO」的地方
+  - 不要增減區塊、不要改 id、不要加 <style> 或 <script> 內容
+-->
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO 課名｜越來越好</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-root="../" data-lesson="LXX">
+<main>
+
+  <!-- 0. 課程頁首 -->
+  <div class="lesson-hero">
+    <div class="id">LXX</div>
+    <h1 class="vi">TODO 越南文課名</h1>
+    <p class="subtitle">TODO 中文課名</p>
+    <ul class="goals">
+      <li>TODO 學習目標 1</li>
+      <li>TODO 學習目標 2</li>
+      <li>TODO 學習目標 3</li>
+    </ul>
+    <nav class="toc">
+      <a href="#dialogue">情境對話</a>
+      <a href="#vocab">單字表</a>
+      <a href="#grammar">文法重點</a>
+      <a href="#culture">文化小知識</a>
+      <a href="#quiz">小測驗</a>
+    </nav>
+  </div>
+
+  <!-- 1. 情境對話：4–8 句 -->
+  <section id="dialogue">
+    <h2><span class="num">1</span>情境對話</h2>
+    <div class="dialogue">
+      <div class="line">
+        <span class="speaker">A</span>
+        <div><p class="vi" data-say>TODO 越南文</p><p class="zh">TODO 中文</p></div>
+      </div>
+      <div class="line">
+        <span class="speaker">B</span>
+        <div><p class="vi" data-say>TODO 越南文</p><p class="zh">TODO 中文</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. 單字表：8–14 列，聲調標籤數 = 音節數 -->
+  <section id="vocab">
+    <h2><span class="num">2</span>單字表</h2>
+    <div class="table-wrap">
+      <table class="vocab">
+        <thead><tr><th>越南文</th><th>聲調</th><th>中文</th><th>備註</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="vi" data-say>TODO</td>
+            <td><span class="tone t-ngang">ngang</span></td>
+            <td>TODO</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 3. 文法重點：2–3 個 -->
+  <section id="grammar">
+    <h2><span class="num">3</span>文法重點</h2>
+    <div class="grammar-point">
+      <h3>1. TODO 文法標題</h3>
+      <p>TODO 說明</p>
+      <div class="pattern">TODO 句型</div>
+      <ul class="examples">
+        <li><span class="vi" data-say>TODO 例句</span><span class="zh">TODO 翻譯</span></li>
+        <li><span class="vi" data-say>TODO 例句</span><span class="zh">TODO 翻譯</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4. 文化小知識：1 則，80–150 字 -->
+  <section id="culture">
+    <h2><span class="num">4</span>文化小知識</h2>
+    <aside class="culture-box">
+      <h3>TODO 標題</h3>
+      <p>TODO 內文</p>
+    </aside>
+  </section>
+
+  <!-- 5. 小測驗：剛好 5 題 -->
+  <section id="quiz">
+    <h2><span class="num">5</span>小測驗</h2>
+    <div class="quiz-item" data-answer="a">
+      <p class="q">1. TODO 題目</p>
+      <div class="choices">
+        <button data-choice="a">TODO</button>
+        <button data-choice="b">TODO</button>
+        <button data-choice="c">TODO</button>
+      </div>
+      <p class="explain">解析：TODO</p>
+    </div>
+    <!-- 複製上面的 quiz-item 共 5 題 -->
+    <p id="quiz-score" class="quiz-score"></p>
+  </section>
+
+  <nav id="lesson-nav"></nav>
+</main>
+<script src="../assets/js/lessons.js"></script>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>
